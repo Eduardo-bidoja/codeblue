@@ -1,0 +1,34 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    max-width: 1500px;
+    color:white;
+
+}
+
+a{
+
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover {
+
+    background-color:white;
+    color: black;
+
+}
+
+@media only screen and (min-width: 600px)
+
+.cantainer  {
+
+    display: grid;
+    grid-template-columns:33% 67%;
+}
+
+.cantainer >div {
+
+margin: 20px;
+
+}
